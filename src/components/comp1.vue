@@ -9,10 +9,11 @@
 import state from '../state';
 
 export default {
+  mixins: [state],
   name: 'comp1',
   data() {
     return {
-      state,
+      
     };
   },
 };

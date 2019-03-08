@@ -1,3 +1,10 @@
+const state = {
+    msg: 'Hello world',
+  };
 export default{
-    msg:"hello vuex"
+    data(){
+        return {
+            state,
+        }
+    }
 }
