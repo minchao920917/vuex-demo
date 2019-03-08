@@ -12,7 +12,7 @@ const EventBus = new Vue({
   });
   EventBus.$on('msg-change', (payload) => {
 
-    // console.log(`Msg has changed to ${payload.value}`);
+    window.console.log(`Msg has changed to ${payload.value}`);
 
     EventBus.msg = payload.value;
   });
